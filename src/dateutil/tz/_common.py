@@ -1,4 +1,6 @@
-from six import PY2
+# `six.PY2` inlined: the port requires Python >= 3.9 (fork-side de-six;
+# upstream file is otherwise verbatim).
+PY2 = False
 
 from functools import wraps
 
